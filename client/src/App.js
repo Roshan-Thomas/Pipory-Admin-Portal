@@ -2,9 +2,9 @@ import * as React from 'react';
 import jsonServerProvider from 'ra-data-json-server';
 
 import { Admin, Resource } from 'react-admin';
-import { UserList } from './components/Users';
-import { PostList, PostCreate, PostEdit } from './components/Posts';
-import Dashboard from './components/Dashboard';
+import { UserList } from './components/Users/Users';
+import { PostList, PostCreate, PostEdit } from './components/Posts/Posts';
+import Dashboard from './components/Dashboard/Dashboard';
 import authProvider from './components/auth/AuthProvider';
 
 import PostIcon from '@material-ui/icons/Book';
