@@ -15,6 +15,8 @@ const App = () => (
     <Admin dashboard={Dashboard} dataProvider={dataProvider} authProvider={authProvider}>
         <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
         <Resource name="users" list={UserList} icon={UserIcon} />
+        <Resource name="influencer" list={UserList} icon={UserIcon} />
+        <Resource name="ads" list={PostList} icon={PostIcon} />
     </Admin>
 )
 
